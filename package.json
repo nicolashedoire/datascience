@@ -1,0 +1,22 @@
+{
+  "name": "datascience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker run -v ~:/home/jovyan -p 8888:8888 datascience_datascience",
+    "compose": "docker-compose up -d --force-recreate --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolashedoire/datascience.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolashedoire/datascience/issues"
+  },
+  "homepage": "https://github.com/nicolashedoire/datascience#readme"
+}

@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: "3.7"
+services:
+  datascience:
+    build:
+      context: ./
+      dockerfile: DockerFile
+    restart: on-failure
+    container_name: test-container
