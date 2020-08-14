@@ -1,12 +1,15 @@
 # Datascience
 
-prerequisite : install docker & docker-compose on your system
+Prerequisites : Install docker & docker-compose on your system
 
-Start Docker container 
+Build your container 
 
 ````
 npm run compose
+````
 
+Start your container
+
+````
 npm run start
-
 ````
